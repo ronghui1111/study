@@ -1,11 +1,4 @@
-/**
- * @Description TODO
- * @author rongh
- * @date 2019-08-06 13:29
- * @Title: Sort.java
- * @Company: CORSWORK
- * @Copyright: Copyright (c) 2018
- */
+
 package personalTest;
 
 import java.util.Arrays;
@@ -13,7 +6,10 @@ import java.util.Random;
 
 /**
  * @author rongh
- *
+ * @date 2017-08-06 13:29
+ * @Title: Sort.java
+ * @Company: CORSWORK
+ * @Copyright: Copyright (c) 2017
  */
 public class Sort {
 	public static void main(String[] args) {
