@@ -1,4 +1,4 @@
-package personalTest.demoClass;
+package personalTest.demoClass.proxy;
 
 /**
  * @Description 设计模式demo

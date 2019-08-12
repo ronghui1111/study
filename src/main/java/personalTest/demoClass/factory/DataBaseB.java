@@ -1,4 +1,4 @@
-package personalTest.demoClass;
+package personalTest.demoClass.factory;
 
 /**
  * @Description TODO
@@ -6,51 +6,48 @@ package personalTest.demoClass;
  * @date 2019-08-09 16:39
  * @Copyright: Copyright (c) 2018
  */
-public class BBean implements BeanInterface {
-
+public class DataBaseB extends DDLBean {
 	/**
 	 * @Description TODO
 	 * @author rongh
-	 * @date 2019-08-09 16:39
+	 * @date 2019-08-12 11:14
 	 * @Copyright: Copyright (c) 2018
 	 */
 	@Override
-	public void add() {
-		System.out.println("the add() of B");
+	public void alert() {
+		System.out.println("the alert() of DataBaseB");
 
 	}
 
 	/**
 	 * @Description TODO
 	 * @author rongh
-	 * @date 2019-08-09 16:39
+	 * @date 2019-08-12 11:14
 	 * @Copyright: Copyright (c) 2018
 	 */
 	@Override
-	public void delete() {
-		System.out.println("the delete() of B");
+	public void drop() {
+		System.out.println("the drop() of DataBaseB");
+
 	}
 
 	/**
 	 * @Description TODO
 	 * @author rongh
-	 * @date 2019-08-09 16:39
+	 * @date 2019-08-12 11:14
 	 * @Copyright: Copyright (c) 2018
 	 */
 	@Override
-	public void update() {
-		System.out.println("the update() of B");
+	public void create() {
+		System.out.println("the create() of DataBaseB");
+
 	}
 
 	/**
 	 * @Description TODO
 	 * @author rongh
-	 * @date 2019-08-09 16:39
+	 * @date 2019-08-12 13:35
 	 * @Copyright: Copyright (c) 2018
 	 */
-	@Override
-	public void select() {
-		System.out.println("the select() of B");
-	}
 
 }

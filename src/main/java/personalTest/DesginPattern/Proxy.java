@@ -1,6 +1,6 @@
 package personalTest.DesginPattern;
 
-import personalTest.demoClass.ProxyDemo;
+import personalTest.demoClass.proxy.ProxyDemo;
 
 /**
  * @Description TODO
