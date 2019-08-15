@@ -16,16 +16,30 @@ import org.springframework.stereotype.Component;
 @Aspect
 public class SessionAspect {
 	@Pointcut("@annotation(com.rong.src.study.annotation.AspectTest)")
-	public void ouAspect() {
+	public void annotationAspect() {
 	}
 
-	@Before("ouAspect()")
-	public void before() {
-		System.out.println("进入切面");
+	@Pointcut("execution(* com..controller.*.*(..))")
+	public void patternAspect() {
 	}
 
-	@After("ouAspect()")
-	public void after() {
-		System.out.println("退出切面");
+	@Before("annotationAspect()")
+	public void annotationAspectBefore() {
+		System.out.println("进入annotationAspect切面");
+	}
+
+	@After("annotationAspect()")
+	public void annotationAspectAfter() {
+		System.out.println("退出annotationAspect切面");
+	}
+
+	@Before("patternAspect()")
+	public void patternAspectBefore() {
+		System.out.println("进入patternAspect切面");
+	}
+
+	@After("patternAspect()")
+	public void patternAfter() {
+		System.out.println("退出patternAspect切面");
 	}
 }
