@@ -24,7 +24,7 @@ public class MessageInfo {
 	private Timestamp createTime;
 
 	private Timestamp updateTime;
-
+	
 	public int getMessageId() {
 		return messageId;
 	}
@@ -87,5 +87,17 @@ public class MessageInfo {
 
 	public void setUpdateTime(Timestamp updateTime) {
 		this.updateTime = updateTime;
+	}
+	public String toString() {
+		return "<?xml version=\"1.0\" encoding=\"utf-8\"?>" + 
+				"<message id = \""+messageId+"\">" + 
+				"	<author>"+messageAuthor+"</author>" + 
+				"	<title>"+messageTitle+"</title>" + 
+				"	<header>"+messageHeader+"</header>" + 
+				"	<text>"+messageText+"</text>" + 
+				"	<type>"+messageType+"</type>" + 
+				"	<createtime>"+createTime.toString()+"</createtime>" + 
+				"	<updatetime>"+updateTime.toString()+"</updatetime>" + 
+				"</message>";
 	}
 }
