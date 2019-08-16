@@ -5,7 +5,7 @@ import java.util.Random;
 /**
  * @Description TODO
  * @author rongh
- * @date 2019-08-13 15:33
+ * @date 2019-03-14 15:33
  * @Copyright: Copyright (c) 2018
  */
 public class BitMap {
@@ -14,7 +14,7 @@ public class BitMap {
 
 	/**
 	 * @author rongh
-	 * @date 2019-08-13 15:39
+	 * @date 2019-03-14 15:39
 	 * @Copyright: Copyright (c) 2018
 	 * @param size
 	 *            此字段表示要处理的int型数组大小，用byte数据来标识数据的村粗，byte的大小即为size/8
@@ -26,7 +26,7 @@ public class BitMap {
 	/**
 	 * @Description BitMap
 	 * @author rongh
-	 * @date 2019-08-13 14:14
+	 * @date 2019-03-14 14:14
 	 * @Copyright: Copyright (c) 2018
 	 * @return
 	 */

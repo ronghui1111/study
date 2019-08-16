@@ -19,7 +19,7 @@ public class Sort {
 			array[i] = random.nextInt(500);
 		}
 		System.out.println("----------------------before sort---------------------" + Arrays.toString(array));
-		selectSort(array);
+		bulobuloSort(array);
 		System.out.println("----------------------after sort---------------------" + Arrays.toString(array));
 	}
 

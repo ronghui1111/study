@@ -10,7 +10,7 @@ import java.util.Random;
 
 /**
  * @author rongh
- * @date 2019-08-13 15:33
+ * @date 2019-03-14 15:33
  * @Copyright: Copyright (c) 2018
  */
 public class TwoBitMap {
@@ -20,7 +20,7 @@ public class TwoBitMap {
 
 	/**
 	 * @author rongh
-	 * @date 2019-08-13 15:39
+	 * @date 2019-03-14 15:39
 	 * @Copyright: Copyright (c) 2018
 	 * @param size
 	 *            此字段表示要处理的int型数组大小，用byte数据来标识数据的村粗，byte的大小即为size/8
@@ -32,7 +32,7 @@ public class TwoBitMap {
 	/**
 	 * @Description BitMap
 	 * @author rongh
-	 * @date 2019-08-13 14:14
+	 * @date 2019-03-14 14:14
 	 * @Copyright: Copyright (c) 2018
 	 * @return
 	 */
@@ -153,7 +153,7 @@ public class TwoBitMap {
 		/**
 		 * @Description TODO
 		 * @author rongh
-		 * @date 2019-08-13 16:42
+		 * @date 2019-03-14 16:42
 		 * @Copyright: Copyright (c) 2018
 		 * @param num
 		 * @param repeatNum
@@ -197,7 +197,7 @@ public class TwoBitMap {
 		/**
 		 * @Description TODO
 		 * @author rongh
-		 * @date 2019-08-13 16:40
+		 * @date 2019-03-14 16:40
 		 * @Copyright: Copyright (c) 2018
 		 * @param paramT
 		 * @return
